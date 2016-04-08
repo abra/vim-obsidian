@@ -2,9 +2,9 @@
 " Name:       obsidian - vim color scheme
 " Maintainer: Aydar Khabibullin <aydar.kh@gmail.com>
 " URL:        https://github.com/abra/vim-obsidian
-" Version:    0.1
+" Version:    0.2
 " Created:    01/30/2011 12:35:30 AM
-" Modified:   01/09/2015 06:17:00 PM
+" Modified:   04/08/2016 07:57:13 PM
 " ----------------------------------------------------
 
 set background=dark
@@ -46,6 +46,7 @@ execute "hi Type guifg="        . s:Colors[9]  . " guibg=" . s:Colors[12] . " gu
 execute "hi Underline guifg="   . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 
 " Groups
+execute "hi ColorColumn guifg=NONE guibg=" . s:Colors[13] . " gui=none"
 execute "hi Cursor guifg="      . s:Colors[12] . " guibg=" . s:Colors[5]  . " gui=none"
 execute "hi CursorIM guifg="    . s:Colors[7]  . " guibg=" . s:Colors[5]  . " gui=none"
 execute "hi CursorLine guifg=NONE guibg=" . s:Colors[13]
